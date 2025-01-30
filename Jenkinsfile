@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/sol-cmd/class5.git' 
+                git branch: 'main', url: 'https://github.com/sol-cmd/autoScale.git' 
             }
         }
         stage('Initialize Terraform') {
